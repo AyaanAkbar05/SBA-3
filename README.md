@@ -1,6 +1,6 @@
 # Testimonials Grid Section – Frontend Mentor Challenge
 
-## 📌 Overview
+## Overview
 This project is a solution to the **[Testimonials Grid Section challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)** on Frontend Mentor.  
 The goal of the challenge is to build a responsive testimonials layout that matches the provided design.  
 
@@ -8,7 +8,7 @@ The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid
 
 ---
 
-## 🎨 Approach
+## Approach
 - **Layout**:  
   - Used Bootstrap’s grid system (`container`, `row`, `col-*`) to structure the testimonials into responsive columns.  
   - Implemented responsive breakpoints (`col-12`, `col-xl-*`) so the grid adapts from mobile → desktop.  
@@ -26,7 +26,7 @@ The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid
 
 ---
 
-## ⚡ Customizations
+## Customizations
 - Slightly adjusted margins and padding (`my-4`, `g-4`) for better spacing on different screen sizes.  
 - Used `w-100` and `d-flex` in the rightmost column to ensure the Kira Whittle testimonial fills the entire column height.  
 - Applied semantic HTML tags (`h3`, `h4`, `p`, `small`) for accessibility and readability.  
@@ -34,20 +34,15 @@ The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid
 
 ---
 
-## 🛠️ Challenges & Solutions
+## Challenges & Solutions
 1. **Responsive alignment of cards**  
    - Challenge: Ensuring testimonial cards aligned properly in a mixed 8/4 grid layout.  
    - Solution: Used Bootstrap’s `row g-4 align-items-stretch` along with a custom `.h-100-card` class so all cards in a row stretch to equal height.  
 
-2. **Positioning of quotation SVG (`bg-pattern-quotation.svg`)**  
+2. **Positioning of quotation SVG**  
    - Challenge: Quotation mark was overlapping content.  
    - Solution: Applied absolute positioning with reduced opacity (`.quotes` class) to place it in the background without affecting readability.  
 
-3. **Name wrapping issue (e.g., "Jeanette Harmon")**  
-   - Challenge: Long names broke awkwardly onto two lines.  
-   - Solution: Adjusted `.image h3` styling (font-size + `white-space: nowrap;`) in `style.css`.  
-
----
 
 ## ✅ Credits
 - Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge).  
