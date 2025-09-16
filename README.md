@@ -6,8 +6,6 @@ The goal of the challenge is to build a responsive testimonials layout that matc
 
 The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid system, with some custom CSS for card styling.
 
----
-
 ## Approach
 - **Layout**:  
   - Used Bootstrap’s grid system (`container`, `row`, `col-*`) to structure the testimonials into responsive columns.  
@@ -24,7 +22,6 @@ The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid
 - **Typography**:  
   - Imported **Barlow Semi Condensed** font from Google Fonts (weights 500 & 600).  
 
----
 
 ## Customizations
 - Slightly adjusted margins and padding (`my-4`, `g-4`) for better spacing on different screen sizes.  
@@ -32,7 +29,6 @@ The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid
 - Applied semantic HTML tags (`h3`, `h4`, `p`, `small`) for accessibility and readability.  
 - Optimized alt text for profile images (e.g., `"Daniel's profile"`) and left decorative assets with `alt=""`.  
 
----
 
 ## Challenges & Solutions
 1. **Responsive alignment of cards**  
@@ -44,7 +40,7 @@ The project is built using **HTML5**, **CSS3**, and **Bootstrap 5** for the grid
    - Solution: Applied absolute positioning with reduced opacity (`.quotes` class) to place it in the background without affecting readability.  
 
 
-## ✅ Credits
+## Credits
 - Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge).  
 - Coded by **Ayaan Akbar Mohammed**.  
 
